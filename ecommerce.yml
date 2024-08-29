@@ -1,0 +1,6 @@
+token:
+  expiration_time: 86400000
+  secret: fhaieuhfilawuehgluhwelgkuhawelkughawiegliuehgiluh
+
+gateway:
+  ip: 192.168.45.96
