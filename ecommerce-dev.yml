@@ -1,6 +1,6 @@
 token:
   expiration_time: 123123124124
-  secret: fhaieuhfilawuehgluhwelgkuhawelkughawiegliuehgiluh_default
+  secret: fhaieuhfilawuehgluhwelgkuhawelkughawiegliuehgiluh_dev
 
 gateway:
   ip: 192.168.45.96
