@@ -1,0 +1,18 @@
+token:
+  expiration_time: 386400000
+  secret: fhaieuhfilawuehgluhwelgkuhawelkughawiegliuehgiluh_dev_native_user-service
+
+gateway:
+  ip: 192.168.45.96
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AYBznKKB4pTMIF2Gkr+jD2N8kn4vMtxuKVYPn2JcI3vf3f/7MxamHpiqjn+UgRzJRmWu6lNmPr16IyuVG2PognI3guPwKrzTJMViBlsUMEeSsrpzEDBrRhWCBAL88vEv/20uo49Li1MmyGH2qqkW3Vn3qR9RHVpwPUZNzch4SHRVGsxcpf9OsXAOIThv0wMmkEiM5vRWNlhA23kTksO+nKKhhBKruG1FQ1ZDTTV0REBBjxNAvduQKkip1OjCqrHFc/mWtOFofgWhxuRLY75D+Hs8U+ytIaH8+8KYeNlV0DRZg1/4V49tvgeREgmM1ocxxdywr3FKb4HXTAvhGAMgCWsKiv4gWEl5/i5lQHSQomSP27JaUM7FHTMLpD0P9Bqd+Z11GG0eg14SRFK6dJsFGhzHI9BTFUtlQaUsMs4dFK3UCWgkXy7//UtrUPlaEWpI9w55+eC7qwCd6pSa48MnZYtakbrLxGsz/+G3y+HlB5zoGwyB83/bP63tbkRM8FJWb0bB7/L2u+iE9OzTdXFXMka2o4FzZ59CLLl8fgxKkpYAeQ=='
+
+order_service:
+  url: http://order-service/order-service/%s/orders
+  exception:
+    order_is_empty: User's orders is empty
