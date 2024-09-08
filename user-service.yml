@@ -3,7 +3,7 @@ token:
   secret: fhaieuhfilawuehgluhwelgkuhawelkughawiegliuehgiluh_dev_native_user-service
 
 gateway:
-  ip: 192.168.45.96
+  ip: 172.18.0.5
 
 spring:
   datasource:
